@@ -1,0 +1,68 @@
+/* App globale */
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3e8ff; 
+  padding: 20px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif; 
+}
+
+/* Contenitore slide */
+.slide-container {
+  max-width: 800px;
+  width: 100%;
+  background-color: #ede0ff; 
+  border: 2px solid #c39eff;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  font-family: 'Poppins', sans-serif; 
+}
+
+/* Titoli */
+.slide-container h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  color: #9b59b6; 
+}
+
+/* Testo normale */
+.slide-container p,
+.slide-container li {
+  color: #3d3d3d;
+  line-height: 1.6;
+}
+
+/* Bottoni */
+.slide-container .btn-primary {
+  background-color: #c39eff; 
+  border: none;
+}
+
+.slide-container .btn-primary:hover {
+  background-color: #b182ff;
+}
+
+.slide-container .btn-secondary {
+  background-color: #d9b3ff; 
+  border: none;
+}
+
+.slide-container .btn-secondary:hover {
+  background-color: #cfa0ff;
+}
+
+/* Lista */
+.slide-container .list-group-item {
+  background-color: #f3ebfb; 
+  border: none;
+  margin-bottom: 5px;
+  border-radius: 12px;
+}
